@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 5em;
+    color: rgba(0,0,0,.5);
+    transition: .5s;
+    animation: bounce 1s infinite;
+}
+body{
+    background-color: cornsilk;
+    text-align: center;
+    display: inline;
+    align-items: center;
+}
+span{
+    color: crimson;
+    /* font-size: 5em; */
+}
+h1:hover{
+    transition: .5s;
+    font-size: 7em;
+}
+
+@keyframes bounce{
+    0%{
+
+    }40%{
+        margin-top: -10px;
+    }
+    80%{
+        margin-top: 0;;
+    }100%{
+
+    }
+}
+
+svg path{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+}
